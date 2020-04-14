@@ -1,26 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Datos = {
-  Nombre: "Jhonatan ",
-  Apellido: "Delgado",
-  Edad: "33",
-};
-
-function getInfo(user) {
-  return `Esta es otra manera. ${user.Nombre} ${user.Apellido}`;
-}
-
-const App = (
+const FrutasFrescas = (props) => (
   <div>
-    <h1>
-      Hola mundo, mi nombre es {Datos.Nombre} {Datos.Apellido}
-    </h1>
-    <p>Mi edad multiplicada es {Datos.Edad * 2}</p>
-    <p>{getInfo(Datos)}</p>
+    <h1>Frutas </h1>
+    <h3>Descripción </h3>
+  </div>
+);
+
+const App = () => (
+  <div>
+    <FrutasFrescas />
+    <FrutasFrescas />
+    <FrutasFrescas />
   </div>
 );
 
 const root = document.getElementById("root");
 
-ReactDOM.render(App, root);
+ReactDOM.render(<App />, root);
