@@ -1,53 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-class TarjetaFruta extends React.Component {
-  constructor() {
-    super();
-  }
-
-  state = {
-    cantidad: 0,
-  };
-  // Las arrow functions heredan el this del padre
-  agregar = () =>
-    this.setState({
-      cantidad: this.state.cantidad + 1,
-    });
-
-  quitar = () => {
-    this.setState({
-      cantidad: this.state.cantidad - 1,
-    });
-  };
-
-  limpiar = () => {
-    this.setState({
-      cantidad: 0,
-    });
-  };
-
-  render() {
-    return (
-      <div>
-        <h3>{this.props.name}</h3>
-        <div>Cantidad: {this.state.cantidad}</div>
-        <button onClick={this.agregar}> + </button>
-        <button onClick={this.quitar}> - </button>
-        <button onClick={this.limpiar}> Limpiar</button>
-        <hr />
-        <p>$ {this.props.price}</p>
-      </div>
-    );
-  }
-}
-
-const App = () => (
-  <div>
-    <TarjetaFruta name={"Sandia"} price={5.0} />
-    <TarjetaFruta name={"Naranja"} price={1.5} />
-    <TarjetaFruta name="Kiwi" price={3.3} />
-  </div>
-);
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
