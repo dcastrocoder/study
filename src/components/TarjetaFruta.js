@@ -1,5 +1,8 @@
 import React from "react";
-import "./styles/frutas.css";
+// import "./styles/frutas.css";
+
+import styles from "./styles/Frutas.module.css";
+// Se importa el módulo asignando un nombre cualquiera
 
 class TarjetaFruta extends React.Component {
   state = {
@@ -25,8 +28,8 @@ class TarjetaFruta extends React.Component {
 
   render() {
     const hasItems = this.state.cantidad > 0;
-    const activeClass = hasItems ? "TarjetaFruta-activa" : "";
-    const clases = "TarjetaFruta " + activeClass;
+    const activeClass = hasItems ? styles["card-active"] : "";
+    const clases = styles.card + " " + activeClass;
 
     return (
       <div className={clases}>
