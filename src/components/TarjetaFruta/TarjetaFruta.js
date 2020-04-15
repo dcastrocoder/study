@@ -1,7 +1,7 @@
 import React from "react";
 // import "./styles/frutas.css";
 
-import styles from "./styles/Frutas.module.css";
+import styles from "./Frutas.module.css";
 // Se importa el módulo asignando un nombre cualquiera
 
 class TarjetaFruta extends React.Component {
