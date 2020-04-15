@@ -1,10 +1,7 @@
 import React from "react";
+import "./styles/frutas.css";
 
 class TarjetaFruta extends React.Component {
-  constructor() {
-    super();
-  }
-
   state = {
     cantidad: 0,
   };
@@ -27,8 +24,12 @@ class TarjetaFruta extends React.Component {
   };
 
   render() {
+    const hasItems = this.state.cantidad > 0;
+    const activeClass = hasItems ? "TarjetaFruta-activa" : "";
+    const clases = "TarjetaFruta " + activeClass;
+
     return (
-      <div>
+      <div className={clases}>
         <h3>{this.props.name}</h3>
         <div>Cantidad: {this.state.cantidad}</div>
         <button onClick={this.agregar}> + </button>
