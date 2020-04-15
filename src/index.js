@@ -20,7 +20,7 @@ class FrutasFrescas extends React.Component {
         <button
           onClick={() => {
             this.setState({ cantidad: this.state.cantidad + 1 });
-            // setState se usa para actualizar estado del componente
+            // setState se usa para actualizar estado del componente.
           }}
         >
           Agregar
