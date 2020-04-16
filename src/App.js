@@ -1,6 +1,7 @@
 import React from "react";
 import TarjetaFruta from "./components/TarjetaFruta";
 import Spread from "./components/Spread";
+import MouseEvents from "./components/MouseEvents/MouseEvents";
 
 const App = () => (
   <div>
@@ -11,6 +12,7 @@ const App = () => (
     <div>
       <h1>Otros ejercicios</h1>
       <Spread />
+      <MouseEvents />
     </div>
   </div>
 );
