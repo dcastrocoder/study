@@ -4,6 +4,7 @@ import Spread from "./components/Spread";
 import MouseEvents from "./components/MouseEvents/MouseEvents";
 import InputEvent from "./components/InputEvent/InputEvent";
 import Persistencia from "./components/PersistenciaDatos/Persistencia";
+import EventosPersonalizados from "./components/EventosPersonalizados/EventosPersonalizados";
 
 const App = () => (
   <div>
@@ -17,6 +18,7 @@ const App = () => (
       <MouseEvents />
       <InputEvent />
       <Persistencia />
+      <EventosPersonalizados />
     </div>
   </div>
 );
