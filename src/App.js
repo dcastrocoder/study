@@ -5,6 +5,7 @@ import MouseEvents from "./components/MouseEvents/MouseEvents";
 import InputEvent from "./components/InputEvent/InputEvent";
 import Persistencia from "./components/PersistenciaDatos/Persistencia";
 import EventosPersonalizados from "./components/EventosPersonalizados/EventosPersonalizados";
+import RenderCondiciona from "./components/RenderCondicional/RenderCondiciona";
 
 const App = () => (
   <div>
@@ -19,6 +20,7 @@ const App = () => (
       <InputEvent />
       <Persistencia />
       <EventosPersonalizados />
+      <RenderCondiciona />
     </div>
   </div>
 );
