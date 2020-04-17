@@ -3,6 +3,7 @@ import TarjetaFruta from "./components/TarjetaFruta";
 import Spread from "./components/Spread";
 import MouseEvents from "./components/MouseEvents/MouseEvents";
 import InputEvent from "./components/InputEvent/InputEvent";
+import Persistencia from "./components/PersistenciaDatos/Persistencia";
 
 const App = () => (
   <div>
@@ -15,6 +16,7 @@ const App = () => (
       <Spread />
       <MouseEvents />
       <InputEvent />
+      <Persistencia />
     </div>
   </div>
 );
