@@ -6,6 +6,7 @@ import InputEvent from "./components/InputEvent/InputEvent";
 import Persistencia from "./components/PersistenciaDatos/Persistencia";
 import EventosPersonalizados from "./components/EventosPersonalizados/EventosPersonalizados";
 import RenderCondiciona from "./components/RenderCondicional/RenderCondiciona";
+import ValidarProps from "./components/ValidadProps/ValidarProps";
 
 const App = () => (
   <div>
@@ -21,6 +22,7 @@ const App = () => (
       <Persistencia />
       <EventosPersonalizados />
       <RenderCondiciona />
+      <ValidarProps />
     </div>
   </div>
 );
