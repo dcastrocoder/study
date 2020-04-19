@@ -7,6 +7,12 @@ import Persistencia from "./components/PersistenciaDatos/Persistencia";
 import EventosPersonalizados from "./components/EventosPersonalizados/EventosPersonalizados";
 import RenderCondiciona from "./components/RenderCondicional/RenderCondiciona";
 import ValidarProps from "./components/ValidadProps/ValidarProps";
+import IteraccionListas from "./components/ItearccionListas/IteraccionListas";
+import IteraccionObjetos from "./components/ItearccionListas/IteraccionObjetos";
+import IterandoPropiedadesObj from "./components/ItearccionListas/IterandoPropiedadesObj";
+import PropKeyParaIterar from "./components/ItearccionListas/PropKeyParaIterar";
+import IteraccinComponentes from "./components/ItearccionListas/IteraccinComponentes";
+import PasarDatosAlIterar from "./components/ItearccionListas/PasarDatosAlIterar";
 
 const App = () => (
   <div>
@@ -23,6 +29,12 @@ const App = () => (
       <EventosPersonalizados />
       <RenderCondiciona />
       <ValidarProps />
+      <IteraccionListas />
+      <IteraccionObjetos />
+      <IterandoPropiedadesObj />
+      <PropKeyParaIterar />
+      <IteraccinComponentes />
+      <PasarDatosAlIterar />
     </div>
   </div>
 );

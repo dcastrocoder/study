@@ -8,6 +8,10 @@ class Datos extends Component {
     email: PropTypes.string,
   };
 
+  static defaultProps = {
+    name: "Ninja",
+  };
+
   render() {
     const { name, bio, email } = this.props;
 
@@ -29,9 +33,7 @@ class Datos extends Component {
 
 class ValidarProps extends Component {
   render() {
-    return (
-      <Datos name="Johnatan" bio="Programador" email="jdc@sietegigas.com" />
-    );
+    return <Datos bio="Programador" email="jdc@sietegigas.com" />;
   }
 }
 
