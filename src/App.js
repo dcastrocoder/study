@@ -13,6 +13,9 @@ import IterandoPropiedadesObj from "./components/ItearccionListas/IterandoPropie
 import PropKeyParaIterar from "./components/ItearccionListas/PropKeyParaIterar";
 import IteraccinComponentes from "./components/ItearccionListas/IteraccinComponentes";
 import PasarDatosAlIterar from "./components/ItearccionListas/PasarDatosAlIterar";
+import RefUno from "./components/Refs/RefUno";
+import RefDos from "./components/Refs/RefDos";
+import RefTres from "./components/Refs/RefTres";
 
 const App = () => (
   <div>
@@ -35,6 +38,9 @@ const App = () => (
       <PropKeyParaIterar />
       <IteraccinComponentes />
       <PasarDatosAlIterar />
+      <RefUno />
+      <RefDos />
+      <RefTres />
     </div>
   </div>
 );
