@@ -38,8 +38,8 @@ class RefUno extends Component {
           Según la documentación de React.js, las refs son una forma de acceder
           a elementos del DOM o a elementos React creados en el método render.
           Por ejemplo poner el focus en un input como en este ejemplo.
-          <Entrada />
         </p>
+        <Entrada />
       </div>
     );
   }

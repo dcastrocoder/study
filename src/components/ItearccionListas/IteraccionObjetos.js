@@ -40,7 +40,12 @@ class IteraccionObjetos extends Component {
     return (
       <div>
         <hr />
-        <h1>Interacción de Objetos 🐣</h1>
+        <h1>
+          Interacción de Objetos
+          <span role="img" aria-label="Pollito">
+            🐣
+          </span>
+        </h1>
         <div>
           {this.state.products.map((product, index) => {
             return (

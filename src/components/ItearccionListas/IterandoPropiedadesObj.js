@@ -19,7 +19,12 @@ class IterandoPropiedadesObj extends Component {
     return (
       <div>
         <hr />
-        <h1> Iterando propiedades de Objetos 🐯</h1>
+        <h1>
+          Iterando propiedades de Objetos
+          <span role="img" aria-label="unicornio">
+            🐯
+          </span>
+        </h1>
         <ul>
           {keys.map((key, index) => (
             <li key={key + index}>

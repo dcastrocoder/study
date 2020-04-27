@@ -15,7 +15,12 @@ import IteraccinComponentes from "./components/ItearccionListas/IteraccinCompone
 import PasarDatosAlIterar from "./components/ItearccionListas/PasarDatosAlIterar";
 import RefUno from "./components/Refs/RefUno";
 import RefDos from "./components/Refs/RefDos";
-import RefTres from "./components/Refs/RefTres";
+import Input1 from "./components/ManejoFormularios/Input1";
+import Input2 from "./components/ManejoFormularios/Input2";
+import Input3 from "./components/ManejoFormularios/Input3";
+import Form1 from "./components/ManejoFormularios/Form1";
+import Form2 from "./components/ManejoFormularios/Form2";
+import Form3 from "./components/ManejoFormularios/Form3";
 
 const App = () => (
   <div>
@@ -40,7 +45,12 @@ const App = () => (
       <PasarDatosAlIterar />
       <RefUno />
       <RefDos />
-      <RefTres />
+      <Input1 />
+      <Input2 />
+      <Input3 />
+      <Form1 />
+      <Form2 />
+      <Form3 />
     </div>
   </div>
 );
