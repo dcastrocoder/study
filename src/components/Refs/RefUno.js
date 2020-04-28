@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Entrada extends Component {
   componentDidMount() {
-    this.focus();
+    // this.focus();
     // EL componentDidMount ejecuta todo apenas se carga. Se llama el método focus para activarlo.
   }
 
